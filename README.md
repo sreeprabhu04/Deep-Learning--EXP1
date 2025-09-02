@@ -37,19 +37,27 @@ Use the trained model to predict for a new input value .
 **PROGRAM**
 
 **Name**:
+
 **Register Number:**
 
+
 class Model(nn.Module):
+
     def __init__(self, in_features, out_features):
+       
         super().__init__()
+        
         #Include your code here
+
 
 
 
 # Initialize the Model, Loss Function, and Optimizer
 
+
 Dataset Information
 Include screenshot of the generated data
+
 
 **OUTPUT**
 
