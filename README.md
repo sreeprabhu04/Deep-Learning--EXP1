@@ -33,8 +33,10 @@ Plot the original dataset along with the learned linear model.
 Use the trained model to predict for a new input value .
 
 **PROGRAM**
+
 **Name**:
 **Register Number:**
+
 class Model(nn.Module):
     def __init__(self, in_features, out_features):
         super().__init__()
@@ -43,14 +45,18 @@ class Model(nn.Module):
 
 
 # Initialize the Model, Loss Function, and Optimizer
+
 Dataset Information
 Include screenshot of the generated data
 
 **OUTPUT**
+
 Training Loss Vs Iteration Plot Best Fit line plot Include your plot here
 
 **New Sample Data Prediction**
+
 Include your sample input and output here
 
 **RESULT**
+
 Thus, a neural network regression model was successfully developed and trained using PyTorch.
